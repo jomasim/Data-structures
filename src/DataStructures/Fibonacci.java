@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class Fibonacci {
     /*
       The function finds the nth number in the fibonacci series
@@ -20,8 +22,10 @@ public class Fibonacci {
         if (num <= 1) {
             return 1;
         }
-
-        for (int i = 0; i <= num; i++) {
+        /*
+            The loop starts from 2 since we already have the first two numbers(a,b)
+         */
+        for (int i = 2; i <= num; i++) {
             result = a + b; // the next number in the series
             a = b;  // b becomes the new a;
             b = result; // result becomes the new b;
@@ -32,6 +36,6 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        System.out.println(fibonacci(2));
+        System.out.println(fibonacci(5));
     }
 }
