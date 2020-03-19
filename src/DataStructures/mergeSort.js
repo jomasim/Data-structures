@@ -33,4 +33,4 @@ function mergeSort(arr) {
 // overall time complexity us O(n log n ) linear logarithmic
 // space is O(n) height of the  binary tree
 
-console.log(mergeSort([1,5,2,8,9]));
+console.log(mergeSort([4,5,6,9,1,3,12,7]));
