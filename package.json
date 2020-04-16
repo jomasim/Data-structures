@@ -1,0 +1,26 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "datastructures",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomasim/Data-structures.git"
+  },
+  "author": "Jomasim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomasim/Data-structures/issues"
+  },
+  "homepage": "https://github.com/jomasim/Data-structures#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "dependencies": {}
+}
