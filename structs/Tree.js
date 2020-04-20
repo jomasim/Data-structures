@@ -90,6 +90,6 @@ tree.insert(24);
 
 export default tree;
 
-console.log("original tree", tree);
-tree.remove(24);
-console.log("final tree", tree);
+// console.log("original tree", tree);
+// tree.remove(24);
+// console.log("final tree", tree);
